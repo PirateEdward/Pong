@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_171"/>
+	<classpathentry kind="lib" path="/FlappyBird/lib/lwjgl/lwjgl.jar" sourcepath="/FlappyBird/lib/lwjgl/lwjgl-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/FlappyBird/lib/lwjgl/lwjgl-javadoc.jar!/"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Pong/lib/lwjgl/natives"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/FlappyBird/lib/lwjgl-glfw/lwjgl-glfw.jar" sourcepath="/FlappyBird/lib/lwjgl-glfw/lwjgl-glfw-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/FlappyBird/lib/lwjgl-glfw/lwjgl-glfw-javadoc.jar!/"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Pong/lib/lwjgl-glfw/natives"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/FlappyBird/lib/lwjgl-opengl/lwjgl-opengl.jar" sourcepath="/FlappyBird/lib/lwjgl-opengl/lwjgl-opengl-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/FlappyBird/lib/lwjgl-opengl/lwjgl-opengl-javadoc.jar!/"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Pong/lib/lwjgl-opengl/natives"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
